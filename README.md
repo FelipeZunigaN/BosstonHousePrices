@@ -30,4 +30,10 @@ git status --> to check files
 git add . --> to add everything
 ```
 
+### Commit Files
+```
+git commit -m "commit message"
+git push origin main
+```
+
 
