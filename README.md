@@ -37,3 +37,7 @@ git push origin main
 ``` 
 
 
+# MLOps Steps
+1. Create Procfile #Specifies commands to Heroku instance that needs to be executed by the app when starts running. 
+2. 
+ 
