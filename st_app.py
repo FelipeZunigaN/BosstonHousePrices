@@ -16,19 +16,19 @@ if st.checkbox("Ver Tabla"):
 
 st.scatter_chart(data=df, x='alcohol', y='color_intensity')
 
-CRIM = st.number_input("CRIM :", 0.006)
-ZN = st.number_input("ZN :", 18)
-INDUS = st.number_input("INDUS :", 2.31)
-CHAS = st.number_input("CHAS :", 0)
-NOX = st.number_input("NOX :", 0.538)
-RM = st.number_input("RM :", 6.575)
-AGE = st.number_input("AGE :", 65.2)
-DIS = st.number_input("DIS :", 4.0900)
-RAD = st.number_input("RAD :", 1.0)
-TAX = st.number_input("TAX :", 296.0)
-PTRATIO = st.number_input("PTRATIO :", 15.3)
-B = st.number_input("B :", 396.90)
-LSTAT = st.number_input("LSTAT :", 4.98)
+CRIM = st.number_input("CRIM :", value=0.006)
+ZN = st.number_input("ZN :", value=18)
+INDUS = st.number_input("INDUS :", value=2.31)
+CHAS = st.number_input("CHAS :", value=0)
+NOX = st.number_input("NOX :", value=0.538)
+RM = st.number_input("RM :",value= 6.575)
+AGE = st.number_input("AGE :", value=65.2)
+DIS = st.number_input("DIS :", value=4.0900)
+RAD = st.number_input("RAD :", value=1.0)
+TAX = st.number_input("TAX :", value=296.0)
+PTRATIO = st.number_input("PTRATIO :", value=15.3)
+B = st.number_input("B :", value=396.90)
+LSTAT = st.number_input("LSTAT :", value=4.98)
 
 cols = ['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'RM', 'AGE', 'DIS', 'RAD', 'TAX', 'PTRATIO', 'B', 'LSTAT']
 
